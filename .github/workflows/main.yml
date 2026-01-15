@@ -45,6 +45,7 @@ jobs:
           --exclude='linux32/steamclient.so' \
           -C "$HOME/steamcmd_build" \
           linux32 \
+          linux64 \
           package \
           steamcmd.sh
     
